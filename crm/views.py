@@ -3,6 +3,11 @@ from .models import Order
 from .forms import OrderForm
 from cms.models import CmsSlider
 from price.models import PriceCard, PriceTable
+from django.conf import settings
+from django.conf.urls.static import static
+from django.conf import settings
+from django.conf.urls.static import static
+
 
 # Create your views here.
 def first_page(request):
